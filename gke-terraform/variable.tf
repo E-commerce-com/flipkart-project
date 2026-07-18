@@ -1,19 +1,19 @@
 variable "project" {
   description = "this is gcp project-id"
   type        = string
-  default     = "rock-loop-449918-b0"
+  default     = "project-73bd9651-4490-4776-91a"
 }
 
 variable "region" {
   description = "this is gcp region"
   type        = string
-  default     = "africa-south1"
+  default     = "asia-south1-a"
 }
 
 variable "zone" {
   description = "this is gcp zone"
   type        = string
-  default     = "africa-south1-a"
+  default     = "asia-south1-a"
 }
 
 variable "K8s_version" {
