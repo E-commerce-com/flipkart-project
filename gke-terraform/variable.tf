@@ -19,5 +19,5 @@ variable "zone" {
 variable "k8s_version" {
   description = "GKE Kubernetes version"
   type        = string
-  default     = "1.31.6-gke.1020000"
+  default     = null
 }
